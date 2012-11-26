@@ -10,5 +10,5 @@ vimpractise
   * Следовать инструкциям
 
 Полезные материалы:
-  * Статья [http://ru.najomi.org/vim](Как пользоваться vim)
-  * [http://www.viemu.com/vi-vim-cheat-sheet.gif](Vim Cheat Sheet)
+  * Статья [Как пользоваться vim](http://ru.najomi.org/vim)
+  * [Vim Cheat Sheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
