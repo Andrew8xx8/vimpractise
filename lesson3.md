@@ -65,7 +65,7 @@
     Fiix sssomme eeerrorsss innn thiss string...
 ```
 
-# `c``направление` - удалить до указанной позиции и начать ввод
+* `c``направление` - удалить до указанной позиции и начать ввод
 
 * `c``e` - удалить от текущей позиции до конца слова (вместе с последующим словом, если курсор не в начале слова)
  
@@ -103,7 +103,7 @@
 
 ```
     Fix some errors in this string.
-    Fimm somoi,t a:a erroryyy iuuu thioo stringppp
+    Fij,somdfs.errorvdwd;insd/thisdssdf;string.
 ```
 
 * `c``W` - удалить от тукущей позиции до конца слова
@@ -116,7 +116,7 @@
 
 ```
     Fix some errors in this string.
-    Fimm somoi,t a:a erroryyy iuuu thioo stringppp
+    Fij, somdfs. errorvdwd; insd/ thisdssdf; string.
 ```
 
 * `c``b` - удалить от текущей позиции до начала слова (конца предыдущего слова)
@@ -129,7 +129,7 @@
 
 ```
     Fix some errors in this string.
-    Fimm somoi,t a:a erroryyy iuuu thioo stringppp
+    Cix dsdome dfrors on phis gtring.
 ```
 
 * `c``B` - удалить от текущей позиции до первого предыдущего пробела
@@ -142,7 +142,7 @@
 
 ```
     Fix some errors in this string.
-    Fimm somoi,t a:a erroryyy iuuu thioo stringppp
+    C,ix dsdome dfrors on; phis gtring.
 ```
 
 * `c``$` или `C` - удалить от текущей позиции до конца строки и начать ввод
@@ -155,8 +155,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjdjwef wdwfe efhj wefwf wf.
-    Fimdhj ljqd kjsdq wjdjwef wdwfe efhj wefwf wf.
+    Fix some errorer wfwvev weefwe.
 ```
 
 * `c``^` - удалить от текущей позиции до первого симола в строке и начать ввод
@@ -169,7 +168,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Edw wefwvf wefs in this string.
 ```
 
 * `c``f``e` - удалить от текущей позиции до первого вхождения симола в `e` строке и начать ввод
@@ -182,7 +181,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fimdhj errors in this string.
 ```
 
 * `4``c``c` - удалить 4 строки и начать ввод
@@ -196,6 +195,9 @@
 ```
     Fix some errors in this string.
     Fimdhj ljqd kjsdq wjrs in this string.
+    Fimdhj ljqd kjsdq wjrs in this string.
+    Fimdhj ljqd kjsdq wjrs in this string.
+    Fimdhj ljqd kjsdq wjrs in this string.
 ```
 
 * `2``c``e` - удалить подстроку до конца 2-го слова и начать ввод
@@ -208,7 +210,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some some some errors in this string.
 ```
 
 * `s` - удалить символ под курсором и начать вводить текст
@@ -221,7 +223,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `s``направление` - удалить до указанной позиции и начать ввод
@@ -234,7 +236,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `S` - удалить строку и начать ввод
@@ -247,7 +249,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `r``e` - заменить символ под курсором на символ `e`
@@ -260,7 +262,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `5``r``e` - заменить 5 символов от курсора на символ `e`
@@ -273,7 +275,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `R` - перейти в режим замены текста (вводимые символы будут переписывать существующие до выхода из режима)
@@ -286,7 +288,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `d``d` - удалить строку
@@ -299,7 +301,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `D` - удалить от текущей позиции до конца строки
@@ -312,7 +314,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `v``направление` - выделить блок текста от текущей позиции в указанном направлении на указанное "количество символов"
@@ -325,7 +327,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `v``направление``действие` - выделить блок текста от текущей позиции в указанном направлении на указанное "количество символов" и выполнить указанное действие над выделенным фрагментом текста
@@ -338,7 +340,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `v``%` - когда курсор установлен на одной из скобок - выделит всё до её пары.
@@ -351,7 +353,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `v``i``p` - выделить блок текста
@@ -364,7 +366,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `v``i``b` - выделить всё между двумя ближайшими к курсору круглыми скобками
@@ -377,7 +379,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `v``i``B` - выделить всё между двумя ближайшими к курсору фигурными скобками
@@ -390,7 +392,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `v``i``"` - выделить всё между двумя ближайшими двойными кавычками
@@ -403,7 +405,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `v``i``'` - выделить всё между двумя ближайшими одинарными кавычками
@@ -416,7 +418,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `V` - выделить всю строку целиком
@@ -429,7 +431,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `g``g``V``G` - выделить весь файл
@@ -442,7 +444,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `Ctrl``v` - выделять прямоугольником
@@ -455,7 +457,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `Ctrl``v``выделение_прямоугольника``r``text` - выделить прямоугольник текста и заменить текст на `text` в каждой строке
@@ -468,7 +470,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `:``%``s``/``old``/``new``/``g` - Заменить все вхождения '`old`' на '`new`'
@@ -481,7 +483,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `:``%``s``/``old``/``new``/``g``w` - Заменить все вхождения '`old`' на '`new`' с запросом подтверждения 
@@ -494,7 +496,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `:``v``/``string``/``d` - Удалить все строки, не содержащие '`string`'
@@ -507,7 +509,7 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
 * `:``g``/``^``$``/``d` - Удаление всех пустых строк в VIM
@@ -520,6 +522,6 @@
 
 ```
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
+    Fix some errors in this string.
 ```
 
