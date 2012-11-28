@@ -32,11 +32,11 @@
   4. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
-    Fix some errors in this string.
     Fiix sssomme eeerrorsss innn thiss string...
+    Fix some errors in this string.
 ```
 
-* `X` - вырезает от текущей позиции до конца слова
+* `X` - вырезает символ перед курсором
 
   1. Устанавливаем курсор на перед ошибкой
   2. Для удаления лишнего символа используем `X`
@@ -44,8 +44,8 @@
   4. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
-    Fix some errors in this string.
     Fiix sssomme eeerrorsss innn thiss string...
+    Fix some errors in this string.
 ```
 
 * `c``направление` - удалить до указанной позиции и начать ввод
@@ -53,14 +53,14 @@
 * `c``e` - удалить от текущей позиции до конца слова (вместе с последующим словом, если курсор не в начале слова)
  
   1. Устанавливаем курсор на перед ошибкой
-  2. Для удаления лишнего символа используем `c``e`
+  2. Для удаления лишних символов используем `c``e` (удаление)
   2. Для выхода из режима вставки используем `Esc`
   3. Повторяем процедуру необходимое количество раз
   4. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
+    Fimm somoit aa erroryyy iuuu thioo stringppp
     Fix some errors in this string.
-    Fixx someee ee errorsss innn thiss string...
 ```
 
 * `c``E` - удалить от текущей позиции до конца слова (вместе с последующим словом, если курсор не в начале слова)
@@ -72,24 +72,24 @@
   5. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
+    Fimm somoi,t erroryyy iuuu thioo stringppp
     Fix some errors in this string.
-    Fimm somoi,t a:a erroryyy iuuu thioo stringppp
 ```
 
-* `c``w` - удалить от тукущей позиции до конца слова
+* `c``w` - удалить от тeкущей позиции до начала следующего слова
   
-  1. Устанавливаем курсор на перед ошибкой
+  1. Устанавливаем курсор перед ошибкой
   2. Для удаления лишнего символа используем `c``w`
   3. Если требуется - вводим нужные символы
   4. Повторяем процедуру необходимое количество раз
   5. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
+    Fij somdfs errorvdwd insd thisdssdf string.
     Fix some errors in this string.
-    Fij,somdfs.errorvdwd;insd/thisdssdf;string.
 ```
 
-* `c``W` - удалить от тукущей позиции до конца слова
+* `c``W` - удалить от тeкущей позиции до начала следующего слова
   
   1. Устанавливаем курсор на перед ошибкой
   2. Для удаления лишнего символа используем `c``W`
@@ -98,11 +98,11 @@
   5. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
-    Fix some errors in this string.
     Fij, somdfs. errorvdwd; insd/ thisdssdf; string.
+    Fix some errors in this string.
 ```
 
-* `c``b` - удалить от текущей позиции до начала слова (конца предыдущего слова)
+* `c``b` - удалить от текущей позиции до начала слова (начала предыдущего слова, в случае, если курсор расположен на начале текущего слова)
   
   1. Устанавливаем курсор на перед ошибкой
   2. Для удаления лишнего символа используем `c``b`
@@ -111,8 +111,8 @@
   5. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
-    Fix some errors in this string.
     Cix dsdome dfrors on phis gtring.
+    Fix some errors in this string.
 ```
 
 * `c``B` - удалить от текущей позиции до первого предыдущего пробела
@@ -124,24 +124,25 @@
   5. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
-    Fix some errors in this string.
     C,ix dsdome dfrors on; phis gtring.
+    Fix some errors in this string.
 ```
 
 * `c``$` или `C` - удалить от текущей позиции до конца строки и начать ввод
   
   1. Устанавливаем курсор на перед ошибкой
-  2. Для удаления лишнего символа используем `c``$`
+  2. Для удаления лишних символов используем `c``$`
   3. Если требуется - вводим нужные символы
   4. Во второй строке используем `C` для удаления
   5. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
-    Fix some errors in this string.
     Fix some errorer wfwvev weefwe.
+    Fix some errorer wfwvev weefwe.
+    Fix some errors in this string.
 ```
 
-* `c``^` - удалить от текущей позиции до первого симола в строке и начать ввод
+* `c``^` - удалить от текущей позиции до первого символа в строке и начать ввод
  
   1. Устанавливаем курсор на последнем неверном символе
   2. Для удаления лишних символов используем `c``^`
@@ -150,65 +151,65 @@
   5. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
-    Fix some errors in this string.
     Edw wefwvf wefs in this string.
-```
-
-* `c``f``e` - удалить от текущей позиции до первого вхождения симола в `e` строке и начать ввод
-
-```
     Fix some errors in this string.
-    Fimdhje errors in this string.
+```
+
+* `c``f``.` - удалить от текущей позиции до первого вхождения симола `.` (включительно) строке и начать ввод
+
+```
+    Tmmdhjl.x errors in this string.
+    Fix some errors in this string.
 ```
 
 * `4``c``c` - удалить 4 строки и начать ввод
 
 ```
+    Fimdhj ljqd kjsdq wjrs in this string.
+    Fimdhj ljqd kjsdq wjrs in this string.
+    Fimdhj ljqd kjsdq wjrs in this string.
+    Fimdhj ljqd kjsdq wjrs in this string.
     Fix some errors in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
-    Fimdhj ljqd kjsdq wjrs in this string.
 ```
 
 * `2``c``e` - удалить подстроку до конца 2-го слова и начать ввод
 
 ```
+    Fix more more more errors in this string.
     Fix some errors in this string.
-    Fix some some some errors in this string.
 ```
 
 * `s` - удалить символ под курсором и начать вводить текст
 
 ```
-    Fix some errors in this string.
     Fiesome ersors in this string.
+    Fix some errors in this string.
 ```
 
 * `S` - удалить строку и начать ввод
 
 ```
     Fix some errors in this string.
-    Fix some errors in this string.
+    All symbols are correct %)
 ```
 
-* `r``e` - заменить символ под курсором на символ `e`
+* `r``m` - заменить символ под курсором на символ `m`
  
   1. Устанавливаем курсор на последнем неверном символе
-  2. Для удаления лишних символов используем `r``e`
+  2. Для удаления лишних символов используем `r``m`
   3. Повторите операцию необходимое число раз
   4. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
+    Fix sote errors in this string.
     Fix some errors in this string.
-    Fix somt trrors in this string.
 ```
 
-* `5``r``e` - заменить 5 символов от курсора на символ `e`
+* `2``r``r` - заменить 2 символа от курсора на символ `r`
 
 ```
     Fix some errors in this string.
-    Fix some errors in this string.
+    Fix some ettors in this string.
 ```
 
 * `R` - перейти в режим замены текста (вводимые символы будут переписывать существующие до выхода из режима)
@@ -218,8 +219,8 @@
   3. Вносим изменения
 
 ```
+    so e Fthi six in errors string.
     Fix some errors in this string.
-    som e F thi six in errors string.
 ```
 
 * `d``d` - удалить строку
@@ -241,6 +242,6 @@
   3. Не забываем, что для навигации используем клавиши `j``k``h``l`, а также `w`,`b`,`e`,`$`,`^`
 
 ```
-    Fix some errors in this string.
     Fix some errors in this string.Fix some errors in this string.
+    Fix some errors in this string.
 ```
