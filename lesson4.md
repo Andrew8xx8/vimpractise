@@ -38,8 +38,8 @@
   2. Для выделения фрагмента текста используем `v``%`
 
 ```
-    User.scoped.each { |u| u.finded; u.save! }
-    User.scoped.each { |u| u.finded; u.save! }
+    User.scoped.each { |u| u.found; u.save! }
+    User.scoped.each { |u| u.found; u.save! }
 ```
 
 ``
@@ -52,7 +52,7 @@
 ```
 
   User.scoped.each do |u|
-    u.finded
+    u.found
     u.save 
   end
 
@@ -74,8 +74,8 @@
   2. Для выделения фрагмента текста используем `v``i``B`
 
 ```
-    User.scoped.each { |u| u.finded; u.save! }
-    User.scoped.each { |u| u.finded; u.save! }
+    User.scoped.each { |u| u.found; u.save! }
+    User.scoped.each { |u| u.found; u.save! }
 ```
 
 * `v``i``"` - выделить всё между двумя ближайшими двойными кавычками
